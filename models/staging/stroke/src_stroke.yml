@@ -1,8 +1,7 @@
 version: 2
 
 sources:
-  - name: stroke_data
+  - name: stroke
     database: raw
-    schema: stroke
     tables:
       - name: stroke_data
