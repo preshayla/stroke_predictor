@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: stroke
+    tests: 
+      - not_null
+    columns:
+      - name: bmi_category
+        tests:
+          - accepted_values:
+              values: ["Healthy", "Unhealthy", "Obese", "Overweight"]
+
+
