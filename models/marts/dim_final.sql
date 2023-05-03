@@ -1,3 +1,11 @@
+{{
+  config(
+    materialized='table', 
+    view_name='dim_final'
+  ) 
+}}
+
+
 SELECT *, 
 CASE WHEN bmi < 18.5 THEN 'Unhealthy' 
 WHEN bmi >= 18.5 AND bmi <= 24.9 THEN 'Healthy' 
