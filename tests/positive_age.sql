@@ -1,0 +1,1 @@
+SELECT age FROM {{ ref('dim_final.sql') }} WHERE age < 0;

@@ -9,5 +9,3 @@ models:
         tests:
           - accepted_values:
               values: ["Healthy", "Unhealthy", "Obese", "Overweight"]
-
-
